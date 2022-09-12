@@ -32,7 +32,7 @@ def main():
     crypto = input("Please, enter the cryptocoin: ")
     #Get the price of the crypto currency
     price = get_crypto_price(crypto)
-    #Check if the price changed
+    #Check if the price changed     
     if price != last_price:
       print(crypto+' price: ',price) #Print the price
       last_price = price #Update the last price
