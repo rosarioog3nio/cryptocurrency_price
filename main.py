@@ -2,7 +2,7 @@
 
 #Importing the requered modules
 from bs4 import BeautifulSoup
-import time
+import time   
 import requests
 
 #Creating the function that will get the price of a cryptocurrency
